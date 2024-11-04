@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 import pickle
 import os
 import pandas as pd
+import tensorflow as tf
 import random
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 
@@ -204,4 +205,18 @@ print('Test Accuracy:',score[1])
 pickle_out= open("model_trained.p","wb")  # wb = WRITE BYTE
 pickle.dump(model,pickle_out)
 pickle_out.close()
-cv2.waitKey(0)
+
+# STORE THE MODEL AS A H5 FILE
+model.save("model_trained.h5")  # Saving the model in H5 format
+
+# CONVERT THE MODEL TO TFLITE FORMAT
+import tensorflow as tf
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+tflite_model = converter.convert()
+
+# SAVE THE MODEL IN .tflite FORMAT
+with open("model_trained.tflite", "wb") as tflite_file:
+    tflite_file.write(tflite_model)
+
+# STORE THE MODEL IN .keras FORMAT
+model.save("model_trained.keras")  # Saving the model in the latest .keras format
