@@ -13,6 +13,7 @@ This repository provides a complete implementation of a Traffic Signs Classifica
 5. [Training and Evaluation](#training-and-evaluation)
 6. [Results and Visualizations](#results-and-visualizations)
 7. [Live Testing](#live-testing)
+8. [Android App](#android-app)
 
 ---
 
@@ -136,5 +137,26 @@ python TrafficSigns_test.py
 ```
 - Press `q` to quit the live demo.
 - The `TrafficSigns_test.py` script captures images from the webcam, preprocesses them, and classifies the traffic signs using the trained model.
+
+### Live Test Results
+
+Below are some sample screenshots from the live testing:
+
+| ![Live Test 1](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_1.png) | ![Live Test 2](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_2.png) | ![Live Test 3](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_3.png) |
+|:----------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
+| ![Live Test 4](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_4.png) | ![Live Test 5](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_5.png) | ![Live Test 6](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Screenshot_6.png) |
+
+---
+
+## Android App
+
+In addition to the Python implementation, an Android app has been developed based on this project. The app uses the trained CNN model to classify traffic signs in real-time, making it suitable for mobile and on-the-go applications.
+
+You can find the Android app and more details in the dedicated repository: [Android App of Traffic Signs Classification using CNN](https://github.com/nishatrhythm/Android-App-of-Traffic-Signs-Classification-using-CNN).
+
+### App Screenshots
+
+| ![App Screenshot 1](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/App_Screenshot_1.PNG) | ![App Screenshot 2](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/App_Screenshot_2.PNG) | ![App Screenshot 3](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/App_Screenshot_3.PNG) |
+|:--------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
 
 ---
