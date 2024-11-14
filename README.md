@@ -14,6 +14,7 @@ This repository provides a complete implementation of a Traffic Signs Classifica
 6. [Results and Visualizations](#results-and-visualizations)
 7. [Live Testing](#live-testing)
 8. [Android App](#android-app)
+9. [Web App](#web-app)
 
 ---
 
@@ -160,3 +161,14 @@ You can find the Android app and more details in the dedicated repository: [Andr
 |:--------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------:|
 
 ---
+
+## Web App
+
+A web application has been developed alongside the Python implementation to classify traffic signs directly from a browser. Built using Python, Flask, and Tailwind CSS, this app offers a simple and efficient way to upload images and receive classification results in real-time using the trained CNN model.
+
+You can find the web app and more details in the dedicated repository: [Traffic Signs Classification Web Application](https://github.com/waliulrayhan/Traffic-Signs-Classification/tree/main/Web%20App).
+
+### Web App Screenshots
+
+![Web App Screenshot 1](https://github.com/nishatrhythm/Traffic-Signs-Classification-Using-Convolutional-Neural-Networks/blob/main/live%20test%20images/Web_Screenshot_1.png)
+
